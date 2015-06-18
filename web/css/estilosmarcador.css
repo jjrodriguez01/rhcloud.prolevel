@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+main {margin: 60px auto auto auto}
+body {
+	background-color:#0CF;
+}
+
+h1 {
+	font-family:elephant,haettenchweilier,arial narrow;
+	color:#FFF;
+	text-align:center;	
+}
+
+table.marcador {
+	font-family: times new roman, lucida, sains serif;
+	margin-left:37%;
+	margin-top:80px;
+}
+input.num {
+	width: 40px;
+	color:#F00;
+	font-family:impact;
+	font-size:16px;
+}
+table.marcador td {
+	padding-right: 10px;
+	padding-bottom: 5px;
+	font-size:26px;
+}
+
+table.marcador td.equipo {
+	background: linear-gradient(#3CF,#3FF);
+	border-radius: 8px;
+}
+caption{
+	font-family: castellar,Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:24px;
+	color:#FFF;
+}
+section{
+	background-color:#006;
+
+}
+input#enviar {
+	height: 50px;
+	font-family:impact, castellar, sains serif;
+	background: linear-gradient(#06F,#CCC);
+	color:#000;
+	font-size:25px;
+	transition:all 1s;
+	margin-top:10px
+}
+
+input:hover{
+	cursor:pointer;
+	transform:scale(1.1,1.1);
+}
+input.error{
+	background-color:#F00;
+	color:#FFF;
+}
+

@@ -1,0 +1,466 @@
+body .default{
+    
+	margin:0 5%;
+	max-width: 1800px;
+       line-height: 1.6em;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+        color:#333333;
+        
+   
+    
+
+}
+
+body{
+
+		background-image: url("../imagenes/fondos/fondoinicio.JPG");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+}
+
+
+
+#formulario{
+	width:40%;
+	min-height: 250px;
+	margin: auto;
+	background-color: #efefef;
+	padding:20px;
+	border-radius: 20px;
+	background-color: #cedce7 0%, #596a72 100%;
+	box-shadow: 0 0 10px #03320A;
+}
+
+/* Menu*/
+
+.DynarchCalendar {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.DynarchCalendar-title, .DynarchCalendar-title div {
+  -moz-border-radius: 0 0 4px 4px;
+  -webkit-border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
+}
+
+
+/*centrado del menu*/
+label{
+	display:inline;
+	margin-top:85px;
+       width:23px; 
+        /*margin-top:establece la anchura de la margen de los bloques*/
+	font-family: 'Courgette', cursive;
+               
+
+}
+/*La etiqueta FIELDSET sirve para agrupar los elementos. 
+Se utiliza con su respectiva etiqueta de cierre y lo que hace es crear un recuadro 
+que rodea a los elementos de formulario colocados dentro de ella. */
+fieldset{
+               
+	
+	width: 124px;
+        height:34px;
+	box-shadow: inset 0 0 20px greenyellow;
+}
+
+input{
+    margin-top: 50px;
+    width: 12;
+    background: #efefef;
+    padding-top: 10px;
+     padding-left: 7px;
+  padding-right: 7px;
+     background: linear-gradient(left, #FFFFFF,#F7F9FA);
+  background: -moz-linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
+   color: #2E3133;
+
+}
+
+
+.menu{
+	width:46%;
+	height:30px;
+        background:#cccccc;
+	margin-bottom: 3px;
+    border-radius: 4px;
+    margin-top:85px;
+    
+
+	
+}
+ul li {
+
+	float: left;
+	text-align: center;
+	list-style: none;
+	font-size: 16px;
+	margin-top: 6px;
+
+}
+ul li a{
+
+    color:#333333;
+	text-decoration: none;
+}
+ul li a:hover{
+	color: #154495;
+	text-decoration: none;
+}
+
+ul li.icoface{
+	background-position: 172px -194px;
+
+}
+ul li.icoface:hover{
+	background-position: -158px -169px;
+    background-size: 314px
+}
+ul li.icoyou{
+	background-position: 937px -283px;;
+}
+ul li.icoyou:hover{
+	background-position: 515px -14px;
+background-size: 313px
+}
+ul li.icotwi{
+	background-position:-17px 451px;
+}
+ul li.icotwi:hover{
+	background-position: 302px -66px;
+background-size: 315px;
+}
+
+
+
+.text{
+color:#FFFFFF;
+background:none;
+border:hidden;
+font-size:14px;
+font:"Tahoma, Geneva, sans-serif";
+font-weight:bold;
+text-align:center;
+
+
+}
+
+.text2{
+color:#666666;
+background:none;
+border:hidden;
+font-size:14px;
+font:"Tahoma, Geneva, sans-serif";
+font-weight:bold;
+text-align:center;
+
+
+}
+
+.text1{
+color:#FFFFFF;
+background:none;
+
+
+font-size:14px;
+font:"Tahoma, Geneva, sans-serif";
+font-weight:bold;
+text-align:center;
+
+
+}
+
+/*
+.text1:hover{
+background:#00FF00;
+
+
+}
+
+*/
+.text12{
+color:#FFFFFF;
+background:none;
+
+font-size:14px;
+font:"Tahoma, Geneva, sans-serif";
+font-weight:bold;
+text-align:center;
+
+
+}
+.borde_tab{
+border: #FFFFFF 2px solid;
+width:1050px;
+border-bottom:#FFFFFF 2px solid;
+border-left:#FFFFFF 2px solid;
+border-right:#FFFFFF 2px solid;
+}
+
+.text_fecha{
+color:#FFFFFF;
+font:"Tahoma, Geneva, sans-serif";
+font-size:17px;
+font-weight:bold;
+
+}
+
+.text_fecha2{
+color:#ffffff;
+font:"Tahoma, Geneva, sans-serif";
+font-size:17px;
+font-weight:bold;
+
+}
+
+.titulo{
+
+color:#F37022;
+color:#CCCCCC;
+font:"Tahoma, Geneva, sans-serif";
+font-size:40px;
+font-weight:bold;
+
+
+}
+
+.login{
+background:url(../imagenes/fondo_login.png) no-repeat;
+color:#009B00;
+font-family:Tahoma, Geneva, sans-serif;
+
+width:350px;
+height:240px;
+
+}
+
+
+.reseña{
+background:url(../imagenes/fondo_reseña.png) no-repeat;
+width:550px;
+height:240px;
+color:#666666;
+padding-top: 0px;
+font-family:Tahoma, Geneva, sans-serif;
+font-size:16px;
+
+
+}
+
+
+
+.como{
+background:url(../imagenes/quienes.png) no-repeat;
+width:900px;
+height:500px;
+color:#FFFFFF;
+font-family:Tahoma, Geneva, sans-serif;
+font-size:18px;
+}
+
+.quienes{
+background:url(../imagenes/quienes.png);
+width:900px;
+height:500px;
+font-family:Tahoma, Geneva, sans-serif;
+font-size:18px;
+}
+
+
+.contac{
+background:url(../imagenes/contactenos.png) no-repeat;
+width:900px;
+height:500px;
+color:#666;
+padding-top: 0px;
+font-family:Tahoma, Geneva, sans-serif;
+font-size:18px;
+}
+
+
+.contac2{
+background:url(../imagenes/contactenos.png) no-repeat;
+width:900px;
+height:550px;
+color:#666;
+padding-top: 0px;
+font-family:Tahoma, Geneva, sans-serif;
+font-size:18px;
+}
+
+
+.registro{
+background:url(../imagenes/quienes.png);
+width:900px;
+height:550px;
+font-family:Tahoma, Geneva, sans-serif;
+}
+
+.registro2{
+background:url(../imagenes/registro2.png);
+width:900px;
+height:1100px;
+font-family:Tahoma, Geneva, sans-serif;
+}
+
+.contacto{
+	color:#FFF;
+	padding-top: 0px;
+	font-family:Tahoma, Geneva, sans-serif;
+
+}
+
+.mis_reservas{
+
+border:#ffffff 1px solid;
+font-size:14px;
+font-weight:bold;
+/*border-bottom:#00CC00 2px solid;
+border-left:#00CC00 2px solid;
+border-right:#00CC00 2px solid;*/
+color:#ffffff;
+font-family:"Tahoma, Geneva, sans-serif";
+
+}
+
+
+.mis_reservas2{
+
+border:#ffffff 1px solid;
+/*border-bottom:#00CC00 2px solid;
+border-left:#00CC00 2px solid;
+border-right:#00CC00 2px solid;*/
+color:#ffffff;
+font-family:"Tahoma, Geneva, sans-serif";
+font-size:12px;
+}
+
+
+
+.canchas{
+background:url(../imagenes/canchas.png) no-repeat;
+width:350px;
+height:300px;
+
+padding-top: 0px;
+
+
+}
+
+
+.boton{
+	border:#FFFFFF 2px solid;
+	font-family:"Tahoma, Geneva, sans-serif";
+	font-size:14px;
+	color:#FFFFFF;
+	cursor:pointer;
+	background:none;
+}
+
+.comentario{
+width:300px;
+height:100px;
+
+}
+
+
+
+
+
+.tabla_ppal{
+	/*background-color:#FFFFFF;
+
+font-family:"Tahoma, Geneva, sans-serif";
+/*background:url(../imagenes/fondoforo.png) repeat-y;*/
+background:url(../imagenes/ppal.png);
+	width:900px;
+	height:550px;
+	font-size: 14px;
+
+
+}
+
+.info{
+	width:900px;
+	height:550px;
+
+
+}
+
+.tabla_ppal2{
+/*background-color:#FFFFFF;*/
+
+font-family:"Tahoma, Geneva, sans-serif";
+background:url(../imagenes/fondoforo.png) repeat-y;
+width:900px;
+height:40px;
+
+
+
+}
+
+
+
+.amarillo{
+background-color:#8C4600;	
+	
+}
+
+ MENU /////////////////////////////////// 
+
+#menu {
+	float:left;
+	width:100%;
+	background:#efefef;
+	font-size:93%;
+	line-height:normal;
+	border-bottom:1px solid #666;
+	}
+#menu ul {
+	margin:0;
+	padding:10px 10px 0 50px;
+	list-style:none;
+	}
+#menu li {
+	display:inline;
+	margin:0;
+	padding:0;
+	}
+#menu a {
+	float:left;
+	background:url("../imagenes/tableftF.gif") no-repeat left top;
+	margin:0;
+	padding:0 0 0 4px;
+	text-decoration:none;
+	}
+#menu a span {
+	float:left;
+	display:block;
+	background:url("../imagenes/tabrightF.gif") no-repeat right top;
+	padding:5px 14px 4px 6px;
+	color:#666;
+	font-size:14
+	px;
+	
+	}
+        #imagenreserva{
+            width: 120;
+            height: 200;
+            border: none;
+            left: 12;
+        }
+        p.pie{
+	position:relative;
+	text-align:center;
+	margin-bottom:1px;
+	top:100px;
+	color:#2E3133;
+	clear:both;
+}
+
+

@@ -1,0 +1,120 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2/02/2015, 12:25:03 AM
+    Author     : jeisson
+*/
+
+
+.tablatit {
+    font-family: verdana, impact, arial;
+    text-align: left;
+    letter-spacing: 2px;
+    color: #1e90ff;
+}
+
+#tarjetas label,select {
+    display: block;
+}
+#tarjetas label {
+    font-family: 'frankil gothic medium', 'lucida fax', 'lucida sans', 'Times New Roman', verdana,arial;
+}
+.confirmt {
+    font-style: italic;
+    color: #22892a;
+}
+
+@font-face{
+	font-family: altea;
+	src:url(../fuentes/ALTEA.TTF);
+}
+
+h1#titulo{
+	clear:both;
+	text-align:center;
+	font-family:altea,'times new roman', tahoma, sans-serif, 'lucida-grande';
+	color:#0F0;
+	text-shadow: 0 0 5px #000000;
+	padding-top: 20px;
+	font-size:50px;
+}
+
+/*estilo de las tablas*/
+table {
+ font-size:0.9em;
+ font-family: Arial, Helvetica, verdana sans-serif;
+ background-color:#fff;
+ border-collapse: collapse;
+ width: 100%;
+}
+caption {
+ font-size: 25px;
+ color: #1ba6b2;
+ font-weight: bold;
+ text-align: left;
+ background: url(http://www.nghorta.com/csstg/header_bg.jpg) no-repeat top left;
+ padding: 10px;
+ margin-bottom: 2px;
+}
+thead th {
+ border-right: 1px solid #fff;
+ color:#fff;
+ text-align:center;
+ padding:2px;
+ text-transform:uppercase;
+ height:25px;
+ background-color: #a3c159;
+ font-weight: normal;
+}
+tfoot {
+ color:#1ba6b2;
+ padding:2px;
+ text-transform:uppercase;
+ font-size:1.2em; 
+ font-weigth: bold;
+ margin-top:6px;
+ border-top: 6px solid #e9f7f6;
+}
+tbody tr {
+ background-color:#fff;
+ border-bottom: 1px solid #f0f0f0;
+}
+tbody td {
+ color:#414141;
+ padding:5px;
+ text-align:left;
+}
+tbody th {
+ text-align:left;
+ padding:2px;
+}
+tbody td a, tbody th a {
+ color:#6C8C37;
+ text-decoration:none;
+ font-weight:normal; 
+ display:block;
+ background: transparent url(http://www.nghorta.com/csstg/links_yellow.gif) no-repeat 0% 50%;
+ padding-left:15px;
+}
+tbody td a:hover, tbody th a:hover {
+ color:#009193;
+ text-decoration:none;
+}
+
+
+.menu-opciones{
+    clear: both;
+    padding-top: 10px;
+}
+
+.tablas{
+    min-height: 600px;
+}
+
+.centrar{
+    margin-left: auto;
+    margin-right: auto;
+}

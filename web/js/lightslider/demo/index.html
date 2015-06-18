@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>lightSlider Demo</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <link rel="stylesheet"  href="../../lightslider/css/lightSlider.css"/>
+    <style>
+    	ul{
+			list-style: none outside none;
+		    padding-left: 0;
+		}
+		.content-slider li{
+		    background-color: #ed3020;
+		    text-align: center;
+		    color: #FFF;
+		}
+		.content-slider h3 {
+		    margin: 0;
+		    padding: 70px 0;
+		}
+		.demo{
+			width: 300px;
+		}
+    </style>
+    <script src="../../jquery-1.9.1.js"></script>
+    <script src="../../lightslider/js/jquery.lightSlider.js"></script>
+	<link type="text/css" rel="stylesheet" href="../../lightGallery-master/demo/lightGallery.css" />
+<script src="../../lightGallery-master/demo/lightGallery.js"></script>
+    <script>
+    	      $(document).ready(function() {
+    $('#imageGallery').lightSlider({
+    gallery:true,
+    item:1,
+    thumbItem:9,
+    slideMargin:0,
+    currentPagerPosition:'left',
+    onSliderLoad: function(plugin) {
+    plugin.lightGallery();
+    }
+    });
+    });
+    </script>
+	<script>
+    	      $(document).ready(function() {
+    $('#imagenes').lightSlider({
+    gallery:true,
+    item:1,
+    thumbItem:9,
+    slideMargin:0,
+    currentPagerPosition:'left',
+    onSliderLoad: function(plugin) {
+    plugin.lightGallery();
+    }
+    });
+    });
+    </script>
+</head>
+<body>
+	<div class="demo">
+            <ul id="imageGallery">
+    <li data-thumb="../../imagenes/inicio/thumb/img1.jpg" data-src="imagenes/inicio/img1.jpg">
+                            <img src="../../../imagenes/inicio/img1.jpg" alt="imagen" />
+                        </li>
+                        <li data-thumb="../../imagenes/inicio/thumb/img2.jpg" data-src="imagenes/inicio/img2.jpg">
+                            <img src="../imagenes/inicio/img2.jpg" alt="imagen" />
+                        </li>
+                        <li data-thumb="../../imagenes/inicio/thumb/img3.jpg" data-src="imagenes/inicio/img3.jpg">
+                            <img src="../../imagenes/inicio/img3.jpg" alt="imagen" />
+                        </li>
+                        <li data-thumb="../../imagenes/inicio/thumb/img4.jpg" data-src="imagenes/inicio/img4.jpg">
+                            <img src="imagenes/inicio/img4.jpg" alt="imagen" />
+                        </li>
+                        <li data-thumb="../../imagenes/inicio/thumb/img6.jpg" data-src="imagenes/inicio/img6.jpg">
+                            <img src="../../imagenes/inicio/img6.jpg" alt="imagen" />
+                        </li>
+    </ul>
+		    
+    </div>
+
+
+<ul id="imagenes">
+                        <li data-thumb="imagenes/inicio/thumb/img1.jpg" data-src="imagenes/inicio/img1.jpg">
+                            <img src="imagenes/inicio/img1.jpg" alt="imagen" />
+                        </li>
+                        <li data-thumb="imagenes/inicio/thumb/img2.jpg" data-src="imagenes/inicio/img2.jpg">
+                            <img src="imagenes/inicio/img2.jpg" alt="imagen" />
+                        </li>
+                        <li data-thumb="imagenes/inicio/thumb/img3.jpg" data-src="imagenes/inicio/img3.jpg">
+                            <img src="imagenes/inicio/img3.jpg" alt="imagen" />
+                        </li>
+                        <li data-thumb="imagenes/inicio/thumb/img4.jpg" data-src="imagenes/inicio/img4.jpg">
+                            <img src="imagenes/inicio/img4.jpg" alt="imagen" />
+                        </li>
+                        <li data-thumb="imagenes/inicio/thumb/img6.jpg" data-src="imagenes/inicio/img6.jpg">
+                            <img src="imagenes/inicio/img6.jpg" alt="imagen" />
+                        </li>
+                    </ul>	
+</body>

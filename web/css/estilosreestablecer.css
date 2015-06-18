@@ -1,0 +1,16 @@
+
+body {
+    
+}
+
+header{
+    position: relative;
+    top: 20px;
+}
+#formu{
+    position: relative;
+    left: 10px;
+}
+span.requerido{
+    color: red;
+}

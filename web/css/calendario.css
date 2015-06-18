@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+main {margin: 1px auto auto auto}
+
+
+table.tabla {
+	font-family: 'times new roman', castellar, verdana;
+	border-collapse:separate;
+	margin:0 auto;
+	margin-top: 30px;
+}
+
+th#titulo, .sub {
+	text-align:left;
+	font-size:24px;
+	background: linear-gradient(#FFF,#0F3);
+	border-color:#3C3;
+	border-radius:5px;
+}
+
+.sub,.vs {
+	text-align:center;
+}
+
+tbody tr, td {
+	background-color:#0F9;
+	border: 1px solid #000;
+	border-radius: 8px;
+	padding: 8px;
+}
+div.grupo {
+	margin:10px;
+}
+
+div#boton {
+	position:relative;
+	clear:both;
+	top: 40px;
+	width: 160px;
+	margin:0 auto;
+}
+
+input#enviar {
+	height: 50px;
+	width: 160px;
+	margin:0 auto;
+	font-family:"Times New Roman", Times, serif, sans-serif, castellar, sains serif;
+	background: linear-gradient(#FFF,#0F3);
+	color:#000;
+	font-size:25px;
+	transition:all 1s;
+	
+}
+
+input:hover{
+	cursor:pointer;
+	transform:scale(1.1,1.1);
+}

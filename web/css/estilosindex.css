@@ -1,0 +1,56 @@
+@charset "utf-8";
+body{
+	background-image:url(../imagenes/fondos/fondoindex.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+/*#logo {
+    margin-left: 40px;
+}*/
+/*#header{
+    height: 120px;
+}
+#titulo{
+    font-family: castellar,algerian, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    position: absolute;
+    display: inline;
+}*/
+#formulario {
+    width: 70%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+label{
+    color: #FFF;
+    font-size: 2em;
+    font-family: centaur,tahoma,verdana,'arial narrow',arial;
+}
+#link{
+    margin-top: 20px;
+}
+a.link{
+    color: #FFF;
+    font-size: 1em;
+    font-style: italic;
+    font-weight: bold;
+}
+div.error{
+     background:white;
+     border: 1px solid #F00;
+     position:absolute;
+     margin-top:20px;
+     margin-left:50px;
+     z-index:100;
+     padding: 2px;
+}
+a{
+    padding: 6px;
+}
+p.pie{
+	position:relative;
+	text-align:center;
+	top: 120px;
+	color:#FFF;
+	clear:both;
+}

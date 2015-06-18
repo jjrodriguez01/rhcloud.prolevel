@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+@font-face{
+	font-family:champagne;
+	src:url(../fuentes/cac_champagne.ttf);
+}
+
+h1{
+	clear:both;
+	text-align:center;
+	padding-top: 60px;
+	font-family:champagne,Times New Roman, Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-size:44px;
+	color: lime;
+	text-shadow: 0 0 5px #000;
+}
+fieldset{
+	background-color: #419641;
+	box-shadow: 10px 10px 5px #888888;
+	width:500px;
+	margin:0 auto
+}
+
+label,select{
+	font-family: 'Bree Serif', sans-serif, "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	display:block;
+	font-size:18px;
+	font-weight:400;
+	color:#FFF;
+	text-shadow: 1px 1px 12px #000;
+	
+}
+
+input,select {
+	height: 32px;
+	width: 256px;
+	font-family:Helvetica, sans-serif;
+	font-size:20px
+}
+input,select{
+	margin-bottom:10px;
+	margin-bottom:10px;
+	transition:all 1s;
+}
+input:focus, select:focus{
+	border-radius:8px;
+	background-color:#6F9;
+}
+select {
+	color:#000
+}
+#btn {
+	width:168px;
+	height:48px;
+	margin:0 auto 
+}
+button{
+	width:168px;
+	height:48px;
+	background-image:url(../imagenes/boton1.png);
+	background-repeat:no-repeat;
+	margin-left:6px;
+	font-family:verdana,impact,arial;
+        font-size: large;
+	font-weight:900;
+        letter-spacing: 3px;
+}
+button:hover{
+	background-image:url(../imagenes/boton2.png);
+	background-repeat:no-repeat;
+	cursor:pointer
+}
+
+div#animacionbalon {
+    width: 100px;
+    height: 100px;
+	margin-top: 20px;
+    position: relative;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 15s infinite;
+	animation-duration: 20s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 90%;}
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 90%;}
+}
+
+label.error {
+	color:red;
+	font-family:arial narrow,helvetica,times new roman;
+	display:inline;
+	font-size:20px;
+	font-style:italic;
+	background-color:#FFF;
+	margin-left:1px
+}
+input,select.error{
+	background:url(../imagenes/uncheck.png) no-repeat;
+	background-position:right;
+}
+input,select.valid{ 
+	background-color:blue;
+	background:url("../imagenes/check.png") no-repeat;
+	background-position:right 
+}
+footer { position:relative;
+	     top:-90px}

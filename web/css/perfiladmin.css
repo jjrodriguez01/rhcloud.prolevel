@@ -1,0 +1,214 @@
+
+nav {
+	z-index:90;
+        padding-bottom: 8px;
+}
+section#menu>h3 {
+	margin-top: 90px;
+        font-style: verdana, 'times new roman', serif;
+}
+
+.jumbotron {
+	border-radius: 13px;
+	background-color:#9FC;
+}
+
+.jumbotron h3{
+    font-style: 'times new roman', arial, sains-serif;
+    color: blue;
+    font-size: 12px;
+    margin-top: 5px;
+}
+h3,img {
+    display: inline;
+}
+img:hover {
+	border: 1px solid #000;
+	opacity: .8;
+	cursor: pointer;
+}
+
+.btn {
+	margin-left:auto;
+	margin-right:auto;
+}
+.error {
+	font-style:italic;
+	color: red;
+}
+#torneoup input {
+    font-family: 'Times New Romas', Impact, Arial,Tahoma;
+    color: blue;
+}
+
+.torneoup button {
+    height: 30px;
+    background-image: url('../imagenes/boton1.png');
+    background-repeat: repeat;
+}
+.torneoup button:hover {
+    height: 30px;
+    background-image: url('../imagenes/boton2.png');
+    background-repeat: repeat;
+}
+/*botones de ventanas modal*/
+#btnat, #btnet, #btnac{
+    display: none;
+}
+#contenedor {
+    clear: both;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+#menu {
+    box-sizing: border-box;
+    width: 20%;
+    height: 100%;
+/*    display: inline-block;*/
+    float: left; 
+}
+#formulario h2{
+    text-align: center;
+}
+/*main {
+    background-color: yellow;
+}
+
+#formulario{
+    background-color: olive;
+    width: 79%;
+    height: 100%;
+    display: inline-block;
+}
+
+#torneo{
+    background-color: #9acfea;
+    display: inline-block;
+    width: 79%;
+    height: 50%;
+}
+#cancha {
+    display: inline-block;
+    width: 79%;
+    height: 100%;
+    background-color: pink;
+}*/
+.item{
+    width: 79%;
+    height: 100%;
+    float: left;
+}
+#torneocontainer,#canchacontainer {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*inicio estilos tablas*/
+
+.table {
+  border-collapse:collapse; 
+  font-family:verdana, arial, sans-serif; 
+  font-size:0.75em; 
+  line-height:2em; 
+  border:1px solid #363;
+  }
+.table td, th {
+  padding:0 0.5em; 
+  border-top:1px solid #ddd;
+  }
+.table tr.odd {
+  background:#eee;
+  }
+.table th {
+  background:#839965;
+  }
+.table caption, tfoot {
+  font-family:georgia, "times new roman", serif; 
+  font-size:3em; 
+  line-height:2em; 
+  height:2em; 
+  padding-right:0.25em; 
+  text-align:right; 
+  color:#363; 
+  border:1px solid #ddd;
+  }
+.table tfoot th {
+  background:#fff; 
+  color:#363; 
+  font-weight:normal;
+  }
+.table thead tr {
+  color:#fff; 
+  height:4em;
+  }
+.table thead tr th:first-child {
+  color:#fc6; 
+  border-right:1px solid #000; 
+  text-align:right; 
+  padding-right:1.5em;
+  }
+.table tbody th {
+  padding:0; 
+  border-right:1px solid #fff; 
+  border-top:1px solid #000;
+  width:16em; 
+  vertical-align:middle;
+  }
+.table tbody tr.odd th {
+  border-right:1px solid #eee;
+  }
+.table tbody td {
+  color:#363; 
+  vertical-align:middle; 
+  height:4em;
+  }
+.table tbody th a {
+  color:#fc3; 
+  text-decoration:none; 
+  border-right:0.8em solid #fc3; 
+  font-weight:normal; 
+  text-align:right; 
+  padding-right:0.5em; 
+  float:right; 
+  border-top:0.8em solid #839965; 
+  border-bottom:0.8em solid #839965;
+  }
+.table tbody tr th a:visited {
+  border-right:0.8em solid #fff;
+  }
+.table tbody tr.odd th a:visited {
+  border-right:0.8em solid #eee;
+  }
+.table tbody td a:visited {
+  color:#000; 
+  font-weight:normal; 
+  text-decoration:line-through;
+  }
+.table tbody td a {
+  color:#000; 
+  font-weight:normal;
+  }
+.table tbody tr th a:hover {
+  color:#fff; 
+  border-right:0.8em solid #fff;
+  }
+.table tbody tr.odd th a:hover {
+  color:#fff; 
+  border-right:0.8em solid #eee;
+  }
+.table tbody td a:hover {
+  color:#c00; 
+  font-weight:normal; 
+  text-decoration:none;
+  }
+/*  fin estilos tablas*/
+
+#miga{
+    position: relative;
+}
+
+span.obligatorio{
+    color: red;
+}

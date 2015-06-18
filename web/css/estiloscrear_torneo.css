@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+html {
+    font-size: 10pt;
+}
+
+body{
+    margin: 0 1px;
+}
+
+@font-face{
+    font-family: altea;
+    src:url(../fuentes/ALTEA.TTF);
+}
+hgroup > h1{
+    font-family: altea,"Times New Roman", Times, serif;
+    text-align:center;
+    clear:both;
+    color:#060;
+    font-size:4rem;
+}
+hgroup h2{
+    font-family: altea,"Times New Roman", Times, serif;
+    text-align:center;
+    clear:both;
+    color:#060;
+    font-size:2rem;
+}
+section > h6{
+    font-size: 2rem;
+    font-family: Haettenschweiler,Elephant,Gungsuh,verdana,arial;
+}
+section#informacion p.descripcion{
+    font-size: 1.5em;
+    font-family: Centaur,'Franklin Gothic Book',Ebrima,verdana;
+}
+div#encabezado{
+    clear:both;
+    background-color: ghostwhite;
+}
+@font-face{
+	font-family:champagne;
+	src:url(../fuentes/cac_champagne.ttf);
+}
+
+p.info{
+	font-family:champagne, 'times new roman', verdana, arial, castellar;
+	font-size:31px;
+	display: inline;
+}
+p.info:hover{
+	color:#F00;
+	cursor:pointer;
+	text-decoration:underline;
+}
+
+
+#btn{
+	visibility:hidden;
+}
+.row header h3{
+    display: inline;
+    font-family: sains-serif, verdana, 'times new roman', caligraphy;
+    color: green;
+}
+#ftorneos{
+    padding-top: 5%;
+}
+label{
+    font-size: 1em;
+    font-family: Tahoma;
+}
+/*label.error{
+    color:red;
+    font-style: italic;
+}
+input,select.error{
+    border: 1px solid red;
+    box-shadow: 1px 1px 8px red;
+}*/
+
+
+

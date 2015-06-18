@@ -1,0 +1,278 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19/04/2015, 08:16:49 PM
+    Author     : jeisson
+*/
+div.arbol_eli16{
+    position: relative;
+    min-width: 1200px;
+}
+
+#p1{
+    position: absolute;
+    width: 180px;
+    height: 95px;
+}
+#p2{
+    position: absolute;
+    width: 180px;
+    height: 95px;
+    top: 105px;
+}
+#uniong1uno{
+    position: absolute;
+    height: 70px;
+    width: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    top: 70px;
+    left: 179px;
+}
+#uniong1dos{
+    position: absolute;
+    left: 197px;
+    top: 99px;
+    width: 149px;
+    height: 1px;
+    border-top: 2px solid black;
+}
+#p3{
+    position: absolute;
+    width: 180px;
+    height: 95px;
+    top: 240px;
+}
+#p4{
+    position: absolute;
+    width: 180px;
+    height: 95px;
+    top: 345px;
+}
+#uniong2uno{
+    position: absolute;
+    height: 70px;
+    width: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    top: 320px;
+    left: 179px;
+}
+#uniong2dos{
+    position: absolute;
+    left: 197px;
+    top: 350px;
+    width: 149px;
+    height: 1px;
+    border-top: 2px solid black;
+}
+#p5{
+    position: absolute;
+    width: 180px;
+    height: 95px;
+    top: 480px;
+}
+#p6{
+    position: absolute;
+    width: 180px;
+    height: 95px;
+    top: 585px;
+}
+#uniong3uno{
+    position: absolute;
+    height: 70px;
+    width: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    top: 560px;
+    left: 179px;
+}
+#uniong3dos{
+    position: absolute;
+    left: 197px;
+    top: 590px;
+    width: 149px;
+    height: 1px;
+    border-top: 2px solid black;
+}
+#p7{
+    position: absolute;
+    width: 180;
+    height: 95px;
+    top: 720px;
+}
+#p8{
+    position: absolute;
+    width: 180px;
+    height: 95px;
+    top: 825px;
+}
+#uniong4uno{
+    position: absolute;
+    height: 70px;
+    width: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    top: 780px;
+    left: 179px;
+}
+#uniong4dos{
+    position: absolute;
+    left: 197px;
+    top: 810px;
+    width: 149px;
+    height: 1px;
+    border-top: 2px solid black;
+}
+
+#cuartos1{
+    position: absolute;
+    width: 180px;
+    height: 95px;
+    top: 55px;
+    left: 345px;
+}
+
+#cuartos2{
+    position: absolute;
+    width: 180px;
+    height: 95px;
+    top: 300px;
+    left: 345px;
+}
+
+#cuartos3{
+    position: absolute;
+    width: 180px;
+    height: 95px;
+    top: 540px;
+    left: 345px;
+}
+
+#cuartos4{
+    position: absolute;
+    width: 180px;
+    height: 95px;
+    top: 770px;
+    left: 345px;
+}
+div#semi1{
+    position: absolute;
+    width: 180px;
+    max-width: 181px;
+    height: 95px;
+    top: 176px;
+    left: 697px;
+}
+#uniong5uno{
+    position: absolute;
+    height: 248px;
+    width: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    top: 98px;
+    left: 525px;
+}
+#uniong5dos{
+    position: absolute;
+    left: 547px;
+    top: 215px;
+    width: 149px;
+    height: 1px;
+    border-top: 2px solid black;
+}
+
+div#semi2{
+    position: absolute;
+    width: 180px;
+    max-width: 181px;
+    height: 95px;
+    top: 650px;
+    left: 696px;
+}
+
+#uniong6uno{
+    position: absolute;
+    height: 243px;
+    width: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    top: 584px;
+    left: 525px;
+}
+#uniong6dos{
+    position: absolute;
+    left: 545px;
+    top: 695px;
+    width: 149px;
+    height: 1px;
+    border-top: 2px solid black;
+}
+
+div#final{
+    position: absolute;
+    width: 180px;
+    max-width: 181px;
+    height: 95px;
+    top: 385px;
+    left: 1047px;
+}
+#uniong7uno{
+    position: absolute;
+    height: 477px;
+    width: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    top: 218px;
+    left: 877px;
+}
+#uniong7dos{
+    position: absolute;
+    left: 895px;
+    top: 470px;
+    width: 149px;
+    height: 1px;
+    border-top: 2px solid black;
+}
+
+div#terceros{
+    position: absolute;
+    width: 180px;
+    max-width: 181px;
+    height: 95px;
+    top: 585px;
+    left: 1047px;
+}
+table{
+    width: 180px;
+    min-width: 178px;
+    max-width: 181px;
+    height: 95px;
+    border: 10px solid red;
+}
+table td.equipo{
+    width: 150px;
+    min-width: 149px;
+    max-width: 151px;
+    overflow: hidden;
+}
+table td.marcador{
+    width: 30px;
+    min-width: 29px;
+}
+
+#etapas{
+    margin-bottom: 20px;
+    font-family: 'arial narrow', 'times new roman', arial;
+    letter-spacing: .5px;
+}

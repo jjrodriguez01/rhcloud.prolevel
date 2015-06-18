@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+@font-face{
+	font-family:champagne;
+	src:url(../fuentes/cac_champagne.ttf);
+}
+
+h1{
+	clear:both;
+	text-align:center;
+	padding-top: 60px;
+	font-family:champagne,Times New Roman, Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-size:44px;
+	color: lime;
+	text-shadow: 0 0 5px #000;
+}
+.jumbotron{
+	background-color: #419641;
+	width:500px;
+	margin:0 auto;
+        border-radius: 15px;
+}
+
+label,select{
+	font-family: "Lucida Sans Unicode","DejaVu Sans", Verdana, sans-serif;
+	display:block;
+	font-size:28px;
+	font-weight:400;
+	color:#FFF;
+	text-shadow: 1px 1px 12px #000;
+	
+}
+
+label {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+input,select{
+	height: 32px;
+	width: 256px;
+	font-family:Helvetica, sans-serif;
+	font-size:20px;
+        margin-left: 25px;
+        margin-top: 5px;
+}
+input:focus, select:focus{
+	border-radius:8px;
+	background-color:#6F9;
+}
+select {
+	color:#000
+}
+#btn {
+	width:168px;
+	height:48px;
+	margin:0 auto 
+}
+form button{
+	width:168px;
+	height:48px;
+	background-image:url(../imagenes/boton1.png);
+	background-repeat:no-repeat;
+	margin-left:6px;
+	font-family:helvetica, verdana;
+	font-weight:800;
+}
+form button:hover{
+	background-image:url(../imagenes/boton2.png);
+	background-repeat:no-repeat;
+	cursor:pointer
+}
+
+div#animacionbalon {
+    width: 100px;
+    height: 100px;
+	margin-top: 20px;
+    position: relative;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 15s infinite;
+	animation-duration: 20s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 90%;}
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 90%;}
+}
+
+label.error {
+	color:red;
+	font-family: tahoma,narrow,helvetica,'times new roman';
+	display:inline;
+	font-size:20px;
+	font-style:italic;
+	margin-left:1px;
+        font-style: italic;
+}
+input,select.error{
+	background:url(../imagenes/uncheck.png) no-repeat;
+	background-position:right;
+}
+input,select.valid{ 
+	background-color:blue;
+	background:url("../imagenes/check.png") no-repeat;
+	background-position:right 
+}
+footer { position:relative;
+	     top:-60px}
+
+#confirm {
+    position: absolute;
+}
